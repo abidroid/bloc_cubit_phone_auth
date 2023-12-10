@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "117538156123",
+    "project_id": "cubit-phone-auth-5db6b",
+    "storage_bucket": "cubit-phone-auth-5db6b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117538156123:android:a0f58cedb100df0978d97e",
+        "android_client_info": {
+          "package_name": "com.example.bloc_cubit_phone_auth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRM3eXJCUAoUOVWtuiGJYmvx6zFjLU-X0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

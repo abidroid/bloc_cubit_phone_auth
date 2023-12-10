@@ -1,6 +1,21 @@
+import 'dart:io';
+
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  Platform.isAndroid
+      ? await Firebase.initializeApp(
+          options: const FirebaseOptions(
+          apiKey: 'AIzaSyCRM3eXJCUAoUOVWtuiGJYmvx6zFjLU-X0',
+          appId: '1:117538156123:android:a0f58cedb100df0978d97e',
+          messagingSenderId: '117538156123',
+          projectId: 'cubit-phone-auth-5db6b',
+        ))
+      : await Firebase.initializeApp();
+
   runApp(const MyApp());
 }
 
